@@ -5,12 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
 <body>
-	<h1>Jon-Erik Chandler</h1>
-		<nav>
-			<p><a href="index.html">About</a></p>
-			<p><a href="portfolio.html">Portfolio</a></p>
-			<p><a href="contact.html">Contact</a></p>
-		</nav>
+	<header>
+		<div class="name-nav">
+			<h1>Jon-Erik Chandler</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">About </a></li>
+					<li id="portfolio"><a href="portfolio.html">Portfolio </a></li>
+					<li><a href="contact.html">Contact </a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+	<section id="main-bio">
 	<h2>Contact</h2>
 		<form>
 			Name <br/> <input type="text" name="first and last names"><br/>
@@ -18,10 +26,14 @@
 			Message <br/> <input type="text" name="message box"><br/>
 		</form>
 		<button>Submit</button>
-	<h3>Connect with Me</h3>
-		<a href="https://github.com/Jon-Erik"><img src="assets\images\github-128.png" alt="GitHub Link"></a>
-		<a href="https://www.linkedin.com/in/jon-erik-chandler-7b020479"><img src="assets\images\linkedin-128.png" alt="LinkedIn Profile Link"></a>
-		<a href="https://stackoverflow.com/users/8933756/jon-erik-chandler"><img src="assets\images\stackoverflow-128.png" alt="Stack Overflow Profile Link"></a>
+	</section>
+	<section id="contact-info">
+			<h3>Connect with Me</h3>
+				<a href="https://github.com/Jon-Erik"><img src="assets\images\github-128.png" alt="GitHub Link" width="72px"></a>
+				<a href="https://www.linkedin.com/in/jon-erik-chandler-7b020479"><img src="assets\images\linkedin-128.png" alt="LinkedIn Profile Link" width="72px"></a>
+				<a href="https://stackoverflow.com/users/8933756/jon-erik-chandler"><img src="assets\images\stackoverflow-128.png" alt="Stack Overflow Profile Link" width="72px"></a>
+		</section>
+	</div>
 	<footer>© Copyright 2018 Jon-Erik Chandler</footer>
 </body>
 </html>
