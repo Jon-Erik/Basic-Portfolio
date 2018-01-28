@@ -42,6 +42,89 @@ body {
 	background: url('../images/concrete_seamless.png');
 }
 
+#firstimage {
+	width: 290px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#secondimage {
+	width: 290px;
+	float: left;
+}
+
+#thirdimage {
+	width: 290px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#fourthimage {
+	width: 290px;
+	float: left;
+}
+
+#fifthimage {
+	width: 290px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+
+.projectlist {
+	position: relative;
+}
+
+.caption1 {
+	position: absolute;
+	top: 140px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	padding: 5px 48px;
+}
+
+.caption2 {
+	position: absolute;
+	top: 140px;
+	left: 320px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	padding: 5px 48px;
+}
+
+.caption3 {
+	position: absolute;
+	top: 385px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	padding: 5px 48px;
+}
+
+.caption4 {
+	position: absolute;
+	top: 385px;
+	left: 320px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	padding: 5px 48px;
+}
+
+.caption5 {
+	position: absolute;
+	top: 630px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	padding: 5px 48px;
+}
+
 header {
 	height: 67px;
 	background-color: white;
@@ -51,6 +134,7 @@ header {
 	border-bottom-width: 1.5px;
 	border-left-width: 0px;
 	border-color: #beb8b4;
+	width: 100%;
 }
 
 .name-nav {
@@ -128,4 +212,8 @@ footer {
 
 .bio-text {
 	margin-right: 10px;
+}
+
+#input {
+	margin: 5px;
 }
