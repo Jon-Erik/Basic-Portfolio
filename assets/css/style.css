@@ -42,6 +42,13 @@ body {
 	background: url('../images/concrete_seamless.png');
 }
 
+.projectitem {
+	width: 290px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
 #firstimage {
 	width: 290px;
 	float: left;
@@ -155,6 +162,7 @@ header {
 	width: 610px;
 	margin-right: 40px;
 	margin-top: 40px;
+	margin-bottom: 40px;
 	background-color: white;
 	padding: 20px;
 	border: 1.5px solid #beb8b4;
@@ -191,7 +199,9 @@ ul li {
 }
 
 footer {
-	position: fixed;
+	clear: both;
+
+	/*position: static;*/
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -203,7 +213,8 @@ footer {
 	border-top-width: 15px;
 	border-bottom-width: 0px;
 	border-right-width: 0px;
-	border-left-width: 0px; 
+	border-left-width: 0px;
+	margin-top: 100px; 
 }
 
 #bio-image {
@@ -215,5 +226,21 @@ footer {
 }
 
 #input {
-	margin: 5px;
+	margin: 5px 0px;
+}
+
+#messagebox {
+	width: 500px;
+	height: 250px;
+}
+
+.submitbutton {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	font-size: 17px;
+	padding: 5px 15px;
+	display: block;
+	margin-top: 10px;
 }
