@@ -27,13 +27,18 @@ li {
 	border-left-width: 1px;
 }
 
-h1 {
-	background-color: #4aaaa5;
-	border-color: #cccccc;
-	color: white;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	margin: 0;
-	padding: 15px;
+#logo {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-decoration: none;
+  background: #4aaaa5;
+  padding-bottom: 5.5px;
+  padding-top: 28px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body {
@@ -42,94 +47,35 @@ body {
 	background: url('../images/concrete_seamless.png');
 }
 
-.projectitem {
-	width: 290px;
-	float: left;
-	margin-right: 30px;
-	margin-bottom: 30px;
-}
-
-#firstimage {
-	width: 290px;
-	float: left;
-	margin-right: 30px;
-	margin-bottom: 30px;
-}
-
-#secondimage {
-	width: 290px;
-	float: left;
-}
-
-#thirdimage {
-	width: 290px;
-	float: left;
-	margin-right: 30px;
-	margin-bottom: 30px;
-}
-
-#fourthimage {
-	width: 290px;
-	float: left;
-}
-
-#fifthimage {
-	width: 290px;
-	float: left;
-	margin-right: 30px;
-	margin-bottom: 30px;
-}
-
-
 .projectlist {
-	position: relative;
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
 }
 
-.caption1 {
-	position: absolute;
-	top: 140px;
-	background: #4aaaa5;
-	color: white;
-	font-size: 30px;
-	padding: 5px 48px;
+.projectlist:nth-child(even) {
+  margin-right: 40px;
 }
 
-.caption2 {
-	position: absolute;
-	top: 140px;
-	left: 320px;
-	background: #4aaaa5;
-	color: white;
-	font-size: 30px;
-	padding: 5px 48px;
+.projectlist img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
 }
 
-.caption3 {
-	position: absolute;
-	top: 385px;
-	background: #4aaaa5;
-	color: white;
-	font-size: 30px;
-	padding: 5px 48px;
-}
-
-.caption4 {
-	position: absolute;
-	top: 385px;
-	left: 320px;
-	background: #4aaaa5;
-	color: white;
-	font-size: 30px;
-	padding: 5px 48px;
-}
-
-.caption5 {
-	position: absolute;
-	top: 630px;
-	background: #4aaaa5;
-	color: white;
-	font-size: 30px;
-	padding: 5px 48px;
+.projectlist h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 89%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
 }
 
 header {
